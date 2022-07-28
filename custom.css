@@ -1,0 +1,29 @@
+/*============================= Font  ===========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+  
+}
+
+
+
+footer{
+  background-color: black;
+  height: 250px;
+  
+}
+
+
+#footer-menu a{
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  color: white;
+}
+
+#social-icon i{
+  padding-left: 10px;
+  color: rgb(19, 225, 225);
+}
