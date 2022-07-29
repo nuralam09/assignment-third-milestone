@@ -27,3 +27,31 @@ footer{
   padding-left: 10px;
   color: rgb(19, 225, 225);
 }
+
+
+/*======================== Mobile Devices======================== */
+
+@media only screen and (max-width:688px){
+  
+  #trusted-company{
+    visibility: hidden;
+  }
+
+ #ready-to-join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+}
+
+
+/*======================== Tablet Devices======================== */
+
+@media only screen and (min-width:689px) and (max-width:992px){
+  
+  #trusted-company{
+    visibility: hidden;
+  }
+
+}
