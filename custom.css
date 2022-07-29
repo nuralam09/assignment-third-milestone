@@ -27,6 +27,11 @@ footer{
   padding-left: 10px;
   color: rgb(19, 225, 225);
 }
+.course-units{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5px;
+}
 
 
 /*======================== Mobile Devices======================== */
@@ -43,6 +48,15 @@ footer{
     align-items: center;
  }
 
+
+ .col-sm-6{
+  width: 100%;
+  margin: 10px;
+ }
+
+ 
+
+ 
 }
 
 
@@ -53,5 +67,12 @@ footer{
   #trusted-company{
     visibility: hidden;
   }
+
+  
+
+   .col-sm-6{
+    width: 100%;
+    margin: 10px;
+   }
 
 }
